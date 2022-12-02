@@ -1,15 +1,5 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Resume v6.0.1 (https://startbootstrap.com/template-overviews/resume)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -67,6 +57,26 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+}
+
+footer{
+  padding-bottom: 50px;
+}
+
+.social{
+  padding-right: 20px;
+}
+
+.mem{
+  background-color: #92dde9;
+}
+.memories{
+  padding-right: 20px;
+}
+
+.more{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -159,12 +169,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #0d0115;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #3268c5;
   text-decoration: underline;
 }
 
@@ -6097,7 +6107,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  /* background-color: #bd5d38 !important; */
+  background-color: #0f6674 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10100,7 +10111,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: var(--info);
 }
 
 .dev-icons {
